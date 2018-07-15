@@ -95,17 +95,17 @@ export class ExamplePage {
     ```javascript
     sqliteService.insert('animals', [
   
-    {
-        fields:'name',
-        value:'Fire'
-    },
+        {
+            fields:'name',
+            value:'Fire'
+        },
     
-    {
-        fields:'color',
-        value:'black'
-    },
+        {
+            fields:'color',
+        v   alue:'black'
+        },
     
-        ]);
+    ]);
     ```
     
   
