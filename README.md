@@ -52,23 +52,23 @@ export class ExamplePage {
   
   }
   
-public insertNewAnimal() {
+    public insertNewAnimal() {
   
-  sqliteService.insert('animals', [
+        sqliteService.insert('animals', [
   
-    {
-        fields:'name',
-        value:'Fire'
-    },
+            {
+                fields:'name',
+                value:'Fire'
+            },
     
-    {
-        fields:'color',
-        value:'black'
-    },
+            {
+                fields:'color',
+                value:'black'
+            },
     
-]);
+        ]);
   
-}
+    }
 
 }
 ```
