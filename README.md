@@ -102,7 +102,7 @@ export class ExamplePage {
     
         {
             fields:'color',
-        v   alue:'black'
+            value:'black'
         },
     
     ]);
